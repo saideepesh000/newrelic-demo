@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && publish-sourcemap ./build/static/js/main.0437ba31.chunk.js.map https://newrelic-demo.vercel.app/static/js/main.0437ba31.chunk.js  --applicationId=1106601735 --apiKey=NRAK-J92SAXZFQLX4HADRNNT0EG1OTQC",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
