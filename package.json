@@ -9,12 +9,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-error-boundary": "^3.1.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && publish-sourcemap ./build/static/js/main.0437ba31.chunk.js.map https://newrelic-demo.vercel.app/static/js/main.0437ba31.chunk.js  --applicationId=1106601735 --apiKey=NRAK-J92SAXZFQLX4HADRNNT0EG1OTQC",
+    "build": "react-scripts build && node ex.mjs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
