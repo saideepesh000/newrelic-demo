@@ -14,7 +14,7 @@ files.forEach(file => {
 
 setTimeout(function(){
     publishSourcemap({
-        sourcemapUrl: `https://newrelic-demo.vercel.app/static/js/${mainFiles[1]}`,
+        sourcemapPath: `./build/static/js/${mainFiles[1]}`,
         javascriptUrl: `https://newrelic-demo.vercel.app/static/js/${mainFiles[0]}`,
         applicationId: '1106601735',
         apiKey: 'NRAK-J92SAXZFQLX4HADRNNT0EG1OTQC'

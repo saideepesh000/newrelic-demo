@@ -8,7 +8,7 @@ export const ErrorHandler = (error, info) => {
 
 const ErrorFallback = () => {
   return (
-      <h2>Something went wrong!</h2>
+      <h2>Something went wrong!2</h2>
   )
 }
 
