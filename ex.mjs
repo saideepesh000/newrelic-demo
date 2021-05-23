@@ -12,11 +12,11 @@ files.forEach(file => {
     }
 }) 
 
-setTimeout(function(){
+// setTimeout(function(){
     publishSourcemap({
         sourcemapPath: `./build/static/js/${mainFiles[1]}`,
         javascriptUrl: `https://newrelic-demo.vercel.app/static/js/${mainFiles[0]}`,
         applicationId: '1106601735',
         apiKey: 'NRAK-J92SAXZFQLX4HADRNNT0EG1OTQC'
       }, function (err) { console.log(err || 'Sourcemap upload done')})
-}, 10000)
+// }, 10000)
