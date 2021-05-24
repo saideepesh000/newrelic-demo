@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home({name}) {
     
     if(name === "Sai"){
-        throw new Error("Sai erfjor")
+        throw new Error("Sai erfjojdjdcujsdjusdr")
     }
     return (
         <div>
